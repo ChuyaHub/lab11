@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    background-color: FFD2D2;
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         url("GOTHIC.woff") format("woff");}
+         
+.rese{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2%;
+        }
+.mem{
+    margin-left: 2%;
+}
+.vl{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+  margin-left: 2%;
+    font-size: 35px;
+
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+    
+  
+}
+.mi{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+  margin-left: 4;
+    font-size: 35px;
+    Letter-spacing: 7px;
+    width: 50%;
+    line-height: 3em;
+    margin-top: -40%;
+    margin-left: 40%;
+    display: inline-block;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+.pic2{
+margin-left: 40%;
+width: 50%;
+height: 80%;
+margin-top: -15%;
+}
+.volk{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+  margin-left: 4;
+    font-size: 35px;
+    Letter-spacing: 7px;
+    width: 40%;
+    line-height: 3em;
+    margin-left: 2%;
+    margin-top: -20%;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;}
+.igr{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+    font-size: 35px;
+    Letter-spacing: 7px;
+    width: 40%;
+    line-height: 3em;
+margin-left: 43%;
+margin-top: -47%;
+}
+.rsr{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+    font-size: 35px;
+    Letter-spacing: 7px;
+    width: 40%;
+    line-height: 3em;
+margin-left: 43%;
+
+}
+.ph{
+    
+    margin-left: 5%;
+}
+.com{
+    margin-left: 45%;
+}
+.gif{
+    margin-left: 75%;
+    margin-top: -30%;
+}
+.spim{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.n{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+    font-size: 35px;
+    Letter-spacing: 7px;
+    width: 40%;
+    line-height: 3em;
+    margin-top: -30%;
+    margin-left: 45%;
+
+}
+.ph2{
+    margin-left: 5%;
+}
+.stud{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -2%;
+        }
+
+.tandm{
+    Font-family: Century Gothic;
+    Font-style: Regular;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+}
+.ph3{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.mozg{
+margin-top: 6%;
+margin-left: 15%;
+}
+.pravo{
+    margin-top: -20%;
+
+}
+
+.vid{
+    margin-left: 30%;
+}
+.area {
+    Font-family: Century Gothic;
+   margin-left: 42%;
+    font-size: 40px;
+    color:black;
+    letter-spacing: -7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  }
+  
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+  }
+  
+
+
+  .lake {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    }
+    .lake:before {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    content: "";
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    }
+    
+    .lake:after {
+    font-family: 'Lucida Console';
+    color: white;
+    content: attr(alt);
+    display: block;
+    font-size: 16px;
+    opacity: 0;
+    padding: 0 3%;
+    position: absolute;
+    text-transform: none;
+    top: 50%;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: scale(0) translateY(-50%);
+    transform: scale(0) translateY(-50%);
+    width: 94%;
+    z-index: 3;
+    }
+    
+    .lake img {
+    border: none;
+    display: block;
+    z-index: 1;
+    }
+    
+    .lake:after {
+    -webkit-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    }
+    
+    .lake:hover:before {
+    opacity: 0.6;
+    }
+    
+    .lake:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-50%);
+    transform: scale(1) translateY(-50%);
+    }
